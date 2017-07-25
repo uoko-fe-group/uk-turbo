@@ -1,0 +1,33 @@
+{
+  "name": "uk-turbo",
+  "version": "1.0.0",
+  "description": "a mini universal component suits and tools for productive Dev , used by UOKO",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uoko-fe-group/uk-turbo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uoko-fe-group/uk-turbo/issues"
+  },
+  "homepage": "https://github.com/uoko-fe-group/uk-turbo#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "css-loader": "^0.28.4",
+    "vue-loader": "^13.0.2",
+    "webpack": "^3.3.0"
+  },
+  "browserslist": [
+    "ios>=8",
+    "android>=4",
+    "last 3 QQAndroid versions",
+    "last 3 UCAndroid versions"
+  ]
+}
