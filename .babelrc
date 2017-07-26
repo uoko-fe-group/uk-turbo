@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": { "ios": "4.1", "android": "4.0" }
+      }
+    ],
+    "stage-2"
+  ],
+  "plugins": ["transform-runtime", "lodash"],
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": ["env", "stage-2"],
+      "plugins": ["istanbul"]
+    }
+  }
+}
